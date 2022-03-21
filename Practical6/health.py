@@ -8,6 +8,7 @@ pairs = {}
 i = 0
 for i in range(len(chd)):
     pairs[paternal_age[i]] = chd[i]
+print(pairs)
 
 # make a plot
 plt.scatter(paternal_age,chd)
