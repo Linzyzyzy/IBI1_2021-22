@@ -17,5 +17,3 @@ if avg >= 60:
     print("congratulations!")
 if avg < 60:
     print("You Die")
-
-

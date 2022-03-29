@@ -1,0 +1,2 @@
+My question is what the top 5 countries with the most whole cases and whole deaths in the world are.
+So I will show the five countries with the most whole cases and the data of world, meanwhile show their data of whole deaths.
