@@ -2,7 +2,7 @@ import re
 
 with open('Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa') as file:
     seq = file.read()
-pattern = re.compile(r'gene:(.*?)gene_.*?Acc:.*?](.*?)>',re.S)
+pattern = re.compile(r'>.*?gene:(.*?) .*?Acc:.*?]\n([ATCG\n]*)',re.S)
 seq_list = pattern.findall(seq)
 name = input('input a filename: ')
 with open(name,'w')as newfile:
