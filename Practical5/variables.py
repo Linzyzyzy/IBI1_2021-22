@@ -13,3 +13,15 @@ if e > d:
 else:
     print('e is smaller than d')
 
+X = True
+Y = True
+W = X and Y
+print(W)
+X = False
+Y = False
+W = X and Y
+print(W)
+X = True
+Y = False
+W = X and Y
+print(W)
