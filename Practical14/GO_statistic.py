@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 def recursion(term,path):
     sons = storedic[term]
     for son in sons:
-        if childdic[son] == {}:
+        if childdic[son] == {son:0}:
             path.append(son)
             for i in path:
                 childdic[i][son] = 0
@@ -30,7 +30,7 @@ for term in terms:
     total_number += 1
     id_ = term.getElementsByTagName('id')[0].childNodes[0].data
     storedic[id_] = []
-    childdic[id_] = {}
+    childdic[id_] = {id_:0}
 
 for term in terms:
     name = term.getElementsByTagName('id')[0].childNodes[0].data
@@ -43,9 +43,9 @@ for term in terms:
 for key in storedic.keys():
     path = [key]
     recursion(key, path)
-    sumlist.append(len(childdic[key].keys()))
+    sumlist.append(len(childdic[key].keys())-1)
     if key in translationlist:
-        sumlist_tran.append(len(childdic[key].keys()))
+        sumlist_tran.append(len(childdic[key].keys())-1)
 
 print("Total number:")
 print(total_number)
