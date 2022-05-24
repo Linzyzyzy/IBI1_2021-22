@@ -32,10 +32,12 @@ print(f'The mean of the China_new_cases is {np.mean(China_new_cases)}\nThe mean 
 
 plt.subplot(2,3,1)
 plt.boxplot(China_new_cases,showfliers=False,labels=['China new cases'])
+plt.ylabel('number of China new cases')
 plt.title('Boxplot of China new cases')
 
 plt.subplot(2,3,2)
 plt.boxplot(China_new_deaths,showfliers=False,labels=['China new deaths'])
+plt.ylabel('number of China new deaths')
 plt.title('Boxplot of China new deaths')
 
 plt.subplot(2,3,3)
