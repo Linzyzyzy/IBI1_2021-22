@@ -4,4 +4,5 @@ def chocolate_calculator(total_money,price):
     return n,change
 total_money = 100
 price = 7
-print(chocolate_calculator(total_money,price))
+n, change = chocolate_calculator(total_money,price)
+print(f'You can buy {n} chocolate and the change is {change}')
