@@ -9,6 +9,9 @@ print(marks)
 
 # draw the boxplot of the marks
 plt.boxplot(marks, showfliers=True, patch_artist=True)
+plt.xlabel("subjects")
+plt.ylabel("marks")
+plt.title("distribution of marks")
 plt.show()
 
 # judge whether you pass or not

@@ -14,6 +14,9 @@ print(pairs)
 
 # make a plot
 plt.scatter(paternal_age,chd)
+plt.xlabel("paternal age")
+plt.ylabel("risk")
+plt.title("relation between paternal age and disease risk")
 plt.show()
 
 # output specific value
