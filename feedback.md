@@ -1,7 +1,7 @@
-#Practical 4
+# Practical 4
 I change the commit from 'Initialise' to 'formative feedback: change the commit'. However, a file called Reflection.txt can't change the commit and I don't know why.
 
-#Practical 5
+# Practical 5
 I add the code below in variables.py:
 ```Python
 X = True
@@ -21,7 +21,7 @@ to find the law of Boolean value
 
 In mystery_code.py, I change the notes to 'cycle for 10 times to create 10 random integers in range from 1 to 100 and out put the last random integer'
 
-#Pratical 6
+# Pratical 6
 In both two figure I lack the labels.
 In health.py I add the code below:
 ```Python
