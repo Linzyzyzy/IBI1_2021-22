@@ -1,4 +1,3 @@
-
 from random import randint
 
 # ceil takes the ceiling of a number, i.e. the next higher integer.
@@ -6,13 +5,10 @@ from random import randint
 from math import ceil
 
 progress=0
-
-# cycle for 10 times to create a random integer in range from 1 to 100
 while progress<10:
 	progress+=1
 	n = randint(1,100)
-
-# print the last n
 print(n)
 
-# to out put a random integer in range from 1 to 100
+# cycle for 10 times to create 10 random integers in range from 1 to 100
+# out put the last random integer
